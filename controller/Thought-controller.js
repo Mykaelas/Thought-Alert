@@ -23,7 +23,7 @@ const ThoughtController = {
 
   // get one Thought by id
   getThoughtById({ params }, res) {
-    Thought.findOne({ _id: params.id })
+    Thought.findOne({ _id: params.thoughtId })
       .populate({
         path: 'userId',
         select: '-__v'
@@ -56,10 +56,11 @@ const ThoughtController = {
         return reactionId
       })
       .then(reactionId => {
-        console.log(reactionId);
+        console.log("reaction", reactionId);
+        console.log( "thought", params.thoughtId)
         Thought.findOneAndUpdate(
           { _id: params.thoughtId },
-          { $push: { replies: reactionId } },
+          { $push: { reactions: reactionId } },
           { new: true }
         )
           .then(dbThoughtData => {
