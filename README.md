@@ -7,6 +7,7 @@ No License as of this point in time
 ## Table of Contents
 
 - [Description](#description)
+- [Languages](#languages)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -17,6 +18,16 @@ No License as of this point in time
 ## Description:
 
 This was created to show the backend side of a social media network that was displayed using insomnia
+
+## Languages: 
+Below is the list of languages used to create this project: 
+- JavaScript
+- NodeJS
+- MongoDB / Mongoose
+- Express
+- Insomnia
+- GitHub
+
 
 ## Installation:
 
