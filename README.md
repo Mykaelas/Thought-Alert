@@ -47,7 +47,5 @@ No Contributors at this time.
 
 Want to see more of my work? Reach out to me here at https://github.com/Mykaelas to see what I am working on next.
 
-You can reach me at my email, mykaela.saenz1@gmail.com for any other questions you may have.
-
 ## Links:
 https://www.youtube.com/watch?v=dq8wYDqdoMY here is a link to the demo. 
